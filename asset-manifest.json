@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/News_weather_etc/static/css/main.7acaea2f.css",
+    "main.js": "/News_weather_etc/static/js/main.07d3183d.js",
+    "index.html": "/News_weather_etc/index.html",
+    "main.7acaea2f.css.map": "/News_weather_etc/static/css/main.7acaea2f.css.map",
+    "main.07d3183d.js.map": "/News_weather_etc/static/js/main.07d3183d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.07d3183d.js"
+  ]
+}
