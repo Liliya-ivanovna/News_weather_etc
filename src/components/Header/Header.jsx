@@ -20,8 +20,7 @@ function DrawerAppBar() {
             style={{color: "rgba(65, 65, 65, 1)",
             paddingLeft:"519px",
           fontWeight:"600",fontSize:"32px",letterSpacing:"5%"}}
-          >
-           PRODUCT LIST PAGE
+          >PRODUCT LIST PAGE
           </Typography>
         </Toolbar>
       </AppBar>
