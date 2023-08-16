@@ -2,7 +2,7 @@
   "name": "react-template",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Liliya-ivanovna.github.io/News_weather_etc",
+  "homepage": "https://Liliya-ivanovna.github.io/News_weather_etc/",
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
@@ -16,8 +16,6 @@
     "react-icons": "^4.10.1",
     "react-router-dom": "^6.15.0",
     "react-scripts": "5.0.1",
-    "react-virtualized-auto-sizer": "^1.0.20",
-    "react-window": "^1.8.9",
     "styled-components": "^5.3.11",
     "web-vitals": "^2.1.3"
   },
