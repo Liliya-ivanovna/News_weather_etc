@@ -1,10 +1,12 @@
+
+import DrawerAppBar from "components/Header/Header";
+
 const ProductDetails = () => {
    
     return (
-      <>
-        <h1 style={{ marginLeft:`50px` }}>PRODUCT PAGE</h1>
-  
-      </>
+      <DrawerAppBar/>
+        
+    
     );
   };
   

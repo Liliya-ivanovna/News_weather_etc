@@ -7,7 +7,7 @@ const ProductList=({products=[]})=>{
 
     return (
         <>
-          <ul style={{ flex: '1 1 auto' }}>
+          <ul>
             {isVisible &&
               products.map(product => <ProductItem key={product.id} {...product} />)}
           </ul>

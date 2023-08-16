@@ -3,6 +3,8 @@ import { responses } from "services/api";
 import { useEffect } from "react";
 import ProductList from "components/ProductList/ProductList";
 import PropTypes from 'prop-types';
+import DrawerAppBar from "components/Header/Header";
+
 
 const Products = () => {
     const { isLoading, data, error, fetchApi } = useFetchProducts();
@@ -14,13 +16,13 @@ const Products = () => {
   console.log(products);
   const isVisible = Array.isArray(products) && products.length > 0;
   
-    return (
-      <>
+    return (<>
+      <DrawerAppBar/>
       <h1 style={{ marginLeft:`50px` }}>PRODUCT LIST PAGE</h1>
       {isVisible && !error && (
         <ProductList products={products} isLoading={isLoading} />
       )}
-    </>
+      </>
   );
 };
 
